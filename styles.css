@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-image: url('astronaud23-rRpwwZnnzW0-unsplash.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.stacked-section{
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    opacity:0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.stacked-section.active{
+
+    opacity: 1;;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #555;
+}
+
+p {
+    line-height: 1.6;
+    color: #777;
+}
+p1{
+
+    line-height: 1.6;
+    color: white;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li{
+    font-family:Arial;
+    line-height: 1.6;
+    color: #777;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    width:100px;
+    height: 100px;
+
+}
+
+body a {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    border-radius: 10px; /* Adjust border-radius for rounded corners */
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
